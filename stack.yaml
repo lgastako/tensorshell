@@ -1,0 +1,24 @@
+resolver: lts-8.18
+
+flags: {}
+
+extra-package-dbs: []
+
+packages:
+- '.'
+
+extra-deps:
+- snappy-0.2.0.2
+- snappy-framing-0.1.1
+- tensorflow-0.1.0.2
+- tensorflow-core-ops-0.1.0.0
+- tensorflow-logging-0.1.0.0
+# - tensorflow-minst-0.1.0.0
+# - tensorflow-minst-input-data-0.1.0.0
+- tensorflow-opgen-0.1.0.0
+- tensorflow-opgen-0.1.0.0
+- tensorflow-ops-0.1.0.0
+- tensorflow-proto-0.1.0.0
+- tensorflow-records-0.1.0.0
+- tensorflow-records-conduit-0.1.0.0
+- tensorflow-test-0.1.0.0

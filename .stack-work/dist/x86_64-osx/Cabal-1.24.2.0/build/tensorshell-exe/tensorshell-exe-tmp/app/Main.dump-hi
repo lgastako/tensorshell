@@ -1,0 +1,40 @@
+
+==================== FINAL INTERFACE ====================
+2017-06-18 01:28:04.083022 UTC
+
+interface main@main:Main 8002
+  interface hash: 139b278f25129a30af36017a854d2a4e
+  ABI hash: a3d420ba2989c36e9eba408531d6ff80
+  export-list hash: 720507c1465ce2f561e6d55ca081c8af
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: d02c5920920d0c33a2afe8368a488387
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+                      tensorshell-0.1.0.0@tensorshell-0.1.0.0-KcYKhuPNkUz9Qc3C77Ogex
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  tensorshell-0.1.0.0@tensorshell-0.1.0.0-KcYKhuPNkUz9Qc3C77Ogex:Lib cf7708e524c34a48d0eff1b5a74b8ece
+83f529351410271e83fed952c86159e1
+  $trModule :: GHC.Types.Module
+0d166822e21f7182ece26123ea2cf341
+  main :: GHC.Types.IO ()
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

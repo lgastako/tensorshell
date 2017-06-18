@@ -1,0 +1,19 @@
+Configuring tensorflow-0.1.0.2...
+Building tensorflow-0.1.0.2...
+Preprocessing library tensorflow-0.1.0.2...
+[ 1 of 13] Compiling TensorFlow.Orphans ( src/TensorFlow/Orphans.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Orphans.o )
+[ 2 of 13] Compiling TensorFlow.Internal.VarInt ( src/TensorFlow/Internal/VarInt.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Internal/VarInt.o )
+[ 3 of 13] Compiling TensorFlow.Internal.Raw ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Internal/Raw.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Internal/Raw.o )
+[ 4 of 13] Compiling TensorFlow.Internal.FFI ( src/TensorFlow/Internal/FFI.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Internal/FFI.o )
+[ 5 of 13] Compiling TensorFlow.Types ( src/TensorFlow/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Types.o )
+[ 6 of 13] Compiling TensorFlow.Output ( src/TensorFlow/Output.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Output.o )
+[ 7 of 13] Compiling TensorFlow.Build ( src/TensorFlow/Build.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Build.o )
+[ 8 of 13] Compiling TensorFlow.Tensor ( src/TensorFlow/Tensor.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Tensor.o )
+[ 9 of 13] Compiling TensorFlow.BuildOp ( src/TensorFlow/BuildOp.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/BuildOp.o )
+[10 of 13] Compiling TensorFlow.Nodes ( src/TensorFlow/Nodes.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Nodes.o )
+[11 of 13] Compiling TensorFlow.ControlFlow ( src/TensorFlow/ControlFlow.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/ControlFlow.o )
+[12 of 13] Compiling TensorFlow.Session ( src/TensorFlow/Session.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Session.o )
+[13 of 13] Compiling TensorFlow.Core  ( src/TensorFlow/Core.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/TensorFlow/Core.o )
+Installing library in
+/Users/john/src/tensorshell/.stack-work/install/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/tensorflow-0.1.0.2-3N19JfNAE61EuAhMeGwPYO
+Registering tensorflow-0.1.0.2...

@@ -1,0 +1,36 @@
+Configuring snappy-0.2.0.2...
+Building snappy-0.2.0.2...
+Preprocessing library snappy-0.2.0.2...
+[1 of 3] Compiling Codec.Compression.Snappy.Internal ( Codec/Compression/Snappy/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Compression/Snappy/Internal.o )
+[2 of 3] Compiling Codec.Compression.Snappy.Lazy ( .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Compression/Snappy/Lazy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Compression/Snappy/Lazy.o )
+
+Codec/Compression/Snappy/Lazy.hsc:52:10: warning: [-Wmissing-methods]
+    • No explicit implementation for
+        either ‘peek’ or ‘peekElemOff’ or ‘peekByteOff’
+    • In the instance declaration for ‘Storable BS’
+[3 of 3] Compiling Codec.Compression.Snappy ( Codec/Compression/Snappy.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Codec/Compression/Snappy.o )
+
+cbits/hs_snappy.cpp:31:1: error:
+     warning: 'BSSource' defined as a class here but previously declared as a struct [-Wmismatched-tags]
+class BSSource : public Source
+^
+
+include/hs_snappy.h:36:1: error:  note: did you mean class here?
+struct BSSource;
+^~~~~~
+class
+1 warning generated.
+
+cbits/hs_snappy.cpp:31:1: error:
+     warning: 'BSSource' defined as a class here but previously declared as a struct [-Wmismatched-tags]
+class BSSource : public Source
+^
+
+include/hs_snappy.h:36:1: error:  note: did you mean class here?
+struct BSSource;
+^~~~~~
+class
+1 warning generated.
+Installing library in
+/Users/john/src/tensorshell/.stack-work/install/x86_64-osx/lts-8.18/8.0.2/lib/x86_64-osx-ghc-8.0.2/snappy-0.2.0.2-JmBPG2tqLTy4WK0LWtFxMV
+Registering snappy-0.2.0.2...
